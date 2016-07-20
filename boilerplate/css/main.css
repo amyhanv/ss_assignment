@@ -1,0 +1,57 @@
+
+
+/* ==========================================================================
+   Amy's CSS Custom Styles
+   =========================================================================
+*/
+
+
+/*bootstrap changes*/
+.navbar-default {
+    color: #555;
+    border:none;
+    box-shadow: none;
+    background-image: none;
+    background-color: pink;
+
+}
+
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+#header-logo {
+    width: 100px;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+.hero-content {
+    background-color: red;
+    position: absolute;
+    padding-left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hero-content h1 {
+    color: #7b71ed;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+#hero-section {
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color:#fff;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+
+}
