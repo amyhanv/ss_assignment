@@ -1,0 +1,7 @@
+Resources and Inspirations:
+
+Purposesocial.com
+100daysoffonts.com
+https://css-tricks.com/snippets/jquery/smooth-scrolling/
+Font Awesome
+Google Fonts
