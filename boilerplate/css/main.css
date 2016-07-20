@@ -34,21 +34,21 @@
     color: #fff;
     width: 100%;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 #select-pink {
     background: #d793e2;
     color: #fff;
     width: 100%;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 #select-black {
     background: #5f656a;
     color: #fff;
     width: 100%;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 .btn-primary {
     /*filled in button*/
@@ -91,18 +91,18 @@
 #select-black:hover {
     background: #323639;
 }
-.btn-primary:hover {
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active  {
     border: 1px solid #9ea1f5;
     background-color: #fff;
     color: #9ea1f5;
 
 }
-.btn-clean:hover {
+.btn-clean:hover,.btn-clean:focus,.btn-clean:active   {
     border: 1px solid #9ea1f5;
     background-color: #9ea1f5;
     color: #fff;
 }
-.btn-buy:hover {
+.btn-buy:hover ,.btn-buy:focus,.btn-buy:active  {
     border: 1px solid #9ea1f5;
     background-color: #9ea1f5;
     color: #fff;
@@ -128,6 +128,7 @@ html, body {
 
 body {
     font-family: "Lato";
+
 }
 
 a {
@@ -208,9 +209,7 @@ hr {
 .pad-top {
     padding-top: 80px;
 }
-.pad-bot {
-    padding-bottom: 30px;
-}
+
 
 #description {
     letter-spacing: 1px;
@@ -222,7 +221,7 @@ hr {
     padding-top: 15px;
     font-family: "Lora", serif;
 }
-.drier {
+#drier {
     padding: 40px;
     max-width: 380px;
     vertical-align: middle;
@@ -247,7 +246,26 @@ hr {
 }
 
 #footer {
-    background: #ede7f2;
+    background: #f1eff4;
+}
+
+.fa{
+    font-size: 22px !important;
+    padding:  5px;
+    border: 1px solid  #b0b2fb;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 30px;
+}
+.fa:hover{
+    color: #fff;
+    border: 1px solid #b0b2fb;
+    background-color: #b0b2fb;
+    -webkit-transition: all .25s ease-in-out;
+         -moz-transition: all .25s ease-in-out;
+          -ms-transition: all .25s ease-in-out;
+           -o-transition: all .25s ease-in-out;
+              transition: all .25s ease-in-out;
 }
 
 /*Media tags for better alignment, positioning, and layout*/
@@ -260,8 +278,8 @@ hr {
     }
 
     #description {
-        letter-spacing: 0.5px;
-        font-size: 14px;
+        letter-spacing: 1px;
+        font-size: 18px;
         line-height: 25px;
     }
 
